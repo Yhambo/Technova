@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Freelancers Bolivianos | Inicio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero {
+      background: #f5f5f5;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .category-card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      transition: 0.3s ease;
+    }
+    .category-card:hover {
+      background: #f0f8ff;
+      transform: translateY(-5px);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navegación -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#">Technova</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#">Buscar freelancers</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Iniciar sesión</a></li>
+          <li class="nav-item"><a class="btn btn-primary ms-2" href="#">Regístrate</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección principal -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="display-5 fw-bold">Encuentra a los mejores freelancers tecnológicos de Bolivia</h1>
+      <p class="lead">Desarrolladores, diseñadores y marketers listos para tu proyecto.</p>
+      <form class="d-flex justify-content-center mt-4">
+        <input class="form-control w-50 me-2" type="search" placeholder="¿Qué necesitas? Ej: Diseño web, App móvil..." aria-label="Buscar">
+        <button class="btn btn-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Categorías populares -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Categorías populares</h2>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="category-card">Desarrollo Web</div>
+        </div>
+        <div class="col-md-3">
+          <div class="category-card">Diseño Gráfico</div>
+        </div>
+        <div class="col-md-3">
+          <div class="category-card">Marketing Digital</div>
+        </div>
+        <div class="col-md-3">
+          <div class="category-card">Aplicaciones Móviles</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA final -->
+  <section class="text-center py-5 bg-light">
+    <div class="container">
+      <h3>¿Eres freelancer? Únete ahora y comienza a trabajar</h3>
+      <a href="#" class="btn btn-primary mt-3">Crear perfil</a>
+    </div>
+  </section>
+
+  <footer class="text-center py-3 bg-dark text-light">
+    <small>&copy; 2025 Technova. Todos los derechos reservados.</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
